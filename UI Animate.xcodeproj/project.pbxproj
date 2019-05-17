@@ -14,6 +14,7 @@
 		9A5DA45D228E4BEE0022289F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5DA45B228E4BEE0022289F /* LaunchScreen.storyboard */; };
 		9A5DA468228E4BEE0022289F /* UI_AnimateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5DA467228E4BEE0022289F /* UI_AnimateTests.swift */; };
 		9A5DA473228E4BEE0022289F /* UI_AnimateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5DA472228E4BEE0022289F /* UI_AnimateUITests.swift */; };
+		9A5DA481228E4C200022289F /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5DA480228E4C200022289F /* Animation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9A5DA46E228E4BEE0022289F /* UI AnimateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI AnimateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5DA472228E4BEE0022289F /* UI_AnimateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_AnimateUITests.swift; sourceTree = "<group>"; };
 		9A5DA474228E4BEE0022289F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A5DA480228E4C200022289F /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9A5DA452228E4BEC0022289F /* AppDelegate.swift */,
 				9A5DA454228E4BEC0022289F /* ViewController.swift */,
 				9A5DA456228E4BEC0022289F /* Main.storyboard */,
+				9A5DA480228E4C200022289F /* Animation.swift */,
 				9A5DA459228E4BEE0022289F /* Assets.xcassets */,
 				9A5DA45B228E4BEE0022289F /* LaunchScreen.storyboard */,
 				9A5DA45E228E4BEE0022289F /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A5DA455228E4BEC0022289F /* ViewController.swift in Sources */,
+				9A5DA481228E4C200022289F /* Animation.swift in Sources */,
 				9A5DA453228E4BEC0022289F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
